@@ -13,7 +13,7 @@ body {
     max-width: 700px;
     margin: auto;
     background: white;
-    padding: 25px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -22,7 +22,6 @@ body {
 .intro h1 {
     font-size: 28px;
     color: #222;
-    margin-bottom: 10px;
 }
 .intro p {
     font-size: 16px;
@@ -30,9 +29,6 @@ body {
 }
 
 /* Social Links */
-.social-links {
-    margin-top: 10px;
-}
 .social-links a {
     font-size: 16px;
     color: #0073e6;
@@ -43,39 +39,23 @@ body {
 
 /* Sections Styling */
 .about, .research {
-    text-align: left; /* Aligns text properly */
-    margin-top: 25px;
+    text-align: left;
+    margin-top: 20px;
     padding: 10px;
-    line-height: 1.6;
 }
-
-/* Section Titles */
 .about h2, .research h2 {
     color: #222;
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
 }
 
-/* Research List - Bullet points LEFT ALIGNED */
+/* Research List */
 .research ul {
-    list-style-type: disc; /* Standard bullet points */
+    list-style: none;
     text-align: left;  /* Aligns text to the left */
-    padding-left: 25px; /* Adjusts indentation */
-    margin: 10px 0; /* Keeps spacing balanced */
+    padding: 0;
 }
 .research li {
-    font-size: 16px;
     padding: 5px 0;
-}
-
-/* Ensure Mobile Responsiveness */
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
-        padding: 20px;
-    }
-    .research ul {
-        padding-left: 15px;
-    }
+    font-size: 16px;
 }
