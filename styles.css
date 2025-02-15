@@ -39,7 +39,7 @@ body {
 
 /* Sections Styling */
 .about, .research {
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
     padding: 10px;
 }
@@ -52,7 +52,6 @@ body {
 /* Research List */
 .research ul {
     list-style: none;
-    text-align: left;  /* Aligns text to the left */
     padding: 0;
 }
 .research li {
