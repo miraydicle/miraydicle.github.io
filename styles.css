@@ -1,27 +1,81 @@
-/* Research Section */
-.research {
-    text-align: center; /* Title stays centered */
-    margin-top: 20px;
-    padding: 10px;
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
 }
 
-/* Research Title */
-.research h2 {
+/* Container Styling */
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Intro Section */
+.intro h1 {
+    font-size: 28px;
     color: #222;
-    border-bottom: 2px solid #0073e6;
-    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.intro p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 10px;
+}
+.social-links a {
+    font-size: 16px;
+    color: #0073e6;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Sections Styling */
+.about, .research {
+    text-align: left; /* Aligns text properly */
+    margin-top: 25px;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+/* Section Titles */
+.about h2, .research h2 {
+    color: #222;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 /* Research List - Bullet points LEFT ALIGNED */
 .research ul {
-    list-style-type: disc;
-    text-align: left;  /* Left-aligns the bullet points */
-    padding-left: 20px; /* Adjusts the spacing */
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 600px; /* Keeps it from being too wide */
+    list-style-type: disc; /* Standard bullet points */
+    text-align: left;  /* Aligns text to the left */
+    padding-left: 25px; /* Adjusts indentation */
+    margin: 10px 0; /* Keeps spacing balanced */
 }
 .research li {
-    padding: 5px 0;
     font-size: 16px;
+    padding: 5px 0;
+}
+
+/* Ensure Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+    .research ul {
+        padding-left: 15px;
+    }
 }
