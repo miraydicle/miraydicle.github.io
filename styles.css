@@ -51,8 +51,9 @@ body {
 
 /* Research List */
 .research ul {
-    list-style: none;
-    padding: 0;
+    list-style-type: disc; /* Adds proper bullet points */
+    margin-left: 20px;
+    text-align: left;
 }
 .research li {
     padding: 5px 0;
