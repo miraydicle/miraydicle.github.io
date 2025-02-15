@@ -48,11 +48,12 @@ body {
     padding-bottom: 5px;
 }
 
-/* Research List */
+/* Research List - Fixed */
 .research ul {
-    list-style-type: disc;
-    text-align: left;
-    padding: 0;
+    list-style-type: disc;  /* Makes bullets visible */
+    padding-left: 30px;  /* Moves bullets to the left */
+    text-align: left;  /* Ensures text stays left-aligned */
+    display: inline-block;  /* Centers the block while keeping text left-aligned */
 }
 .research li {
     padding: 5px 0;
