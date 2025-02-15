@@ -13,7 +13,7 @@ body {
     max-width: 700px;
     margin: auto;
     background: white;
-    padding: 20px;
+    padding: 15px;  /* Reduced padding */
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -22,40 +22,47 @@ body {
 .intro h1 {
     font-size: 28px;
     color: #222;
+    margin-bottom: 5px; /* Reduced space */
 }
 .intro p {
     font-size: 16px;
-    margin: 5px 0;
+    margin: 3px 0; /* Reduced space */
 }
 
 /* Social Links */
+.social-links {
+    margin-top: 5px; /* Reduced space */
+}
 .social-links a {
     font-size: 16px;
     color: #0073e6;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 8px;
     font-weight: bold;
 }
 
 /* Sections Styling */
 .about, .research {
     text-align: center;
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 10px; /* Reduced space between sections */
+    padding: 5px;
 }
 .about h2, .research h2 {
     color: #222;
-    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px; /* Reduced space under titles */
 }
 
-/* Research List - Fixed */
+/* Research List - Left Align */
 .research ul {
-    list-style-type: disc;  /* Makes bullets visible */
-    padding-left: 30px;  /* Moves bullets to the left */
-    text-align: left;  /* Ensures text stays left-aligned */
-    display: inline-block;  /* Centers the block while keeping text left-aligned */
+    list-style-type: disc;
+    padding-left: 25px;
+    margin-top: 5px;
+    text-align: left;
+    display: inline-block;
 }
 .research li {
-    padding: 5px 0;
+    padding: 3px 0;
     font-size: 16px;
 }
