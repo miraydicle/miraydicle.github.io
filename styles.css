@@ -3,60 +3,67 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    text-align: center;
     margin: 0;
     padding: 20px;
-    text-align: center;
 }
 
-/* Container */
+/* Container Styling */
 .container {
     max-width: 700px;
     margin: auto;
     background: white;
-    padding: 20px;
+    padding: 15px;  /* Reduced padding */
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Info Section */
-.info h1 {
-    font-size: 22px;
-    font-weight: normal; /* No bold */
+/* Intro Section */
+.intro h1 {
+    font-size: 28px;
+    color: #222;
+    font-weight: normal; /* Removes bold styling */
+    margin-bottom: 5px; /* Reduced space */
 }
-.info p {
-    font-size: 14px;
-    margin: 5px 0;
+.intro p {
+    font-size: 14px; /* Slightly smaller font */
+    margin: 3px 0; /* Reduced space */
 }
 
 /* Social Links */
 .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 10px;
+    margin-top: 5px; /* Reduced space */
 }
-.social-links img {
-    width: 28px;
-    height: 28px;
+.social-links a {
+    font-size: 14px;
+    color: #0073e6;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: normal; /* Removes bold styling */
 }
 
-/* Sections */
+/* Sections Styling */
 .about, .research {
-    text-align: left;
-    margin-top: 10px;
-    padding: 10px;
+    text-align: center;
+    margin-top: 10px; /* Reduced space between sections */
+    padding: 5px;
 }
 .about h2, .research h2 {
-    font-size: 16px;
-    font-weight: normal; /* No bold */
+    color: #222;
+    font-size: 18px; /* Slightly smaller heading */
+    font-weight: normal; /* Removes bold styling */
+    margin-bottom: 8px; /* Reduced space under titles */
 }
 
-/* Research List */
+/* Research List - Left Align & Smaller Font */
 .research ul {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: 25px;
+    margin-top: 5px;
+    text-align: left;
+    display: inline-block;
 }
 .research li {
-    font-size: 14px;
-    padding: 3px 0;
+    padding: 2px 0;
+    font-size: 14px; /* Matches bio font size */
 }
