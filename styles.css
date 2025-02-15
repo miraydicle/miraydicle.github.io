@@ -39,7 +39,7 @@ body {
 
 /* Sections Styling */
 .about, .research {
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
     padding: 10px;
 }
