@@ -30,6 +30,14 @@ body {
     margin: 3px 0; /* Reduced space */
 }
 
+/* Email Link Styling */
+.intro a {
+    font-size: 14px;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: normal; /* Removes bold styling */
+}
+
 /* Social Links */
 .social-links {
     margin-top: 5px; /* Reduced space */
@@ -40,6 +48,18 @@ body {
     text-decoration: none;
     margin: 0 8px;
     font-weight: normal; /* Removes bold styling */
+}
+
+/* Social Icons */
+.social-links .icon {
+    width: 20px; /* Small enough icons */
+    height: 20px;
+    vertical-align: middle;
+}
+.separator {
+    margin: 0 8px;
+    font-size: 14px;
+    color: #333;
 }
 
 /* Sections Styling */
