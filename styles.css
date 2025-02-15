@@ -22,6 +22,7 @@ body {
 .intro h1 {
     font-size: 28px;
     color: #222;
+    font-weight: normal; /* Removes bold styling */
     margin-bottom: 5px; /* Reduced space */
 }
 .intro p {
@@ -38,7 +39,7 @@ body {
     color: #0073e6;
     text-decoration: none;
     margin: 0 8px;
-    font-weight: bold;
+    font-weight: normal; /* Removes bold styling */
 }
 
 /* Sections Styling */
@@ -50,7 +51,7 @@ body {
 .about h2, .research h2 {
     color: #222;
     font-size: 18px; /* Slightly smaller heading */
-    font-weight: bold;
+    font-weight: normal; /* Removes bold styling */
     margin-bottom: 8px; /* Reduced space under titles */
 }
 
