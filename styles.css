@@ -50,7 +50,7 @@ body {
 
 /* Research List */
 .research ul {
-    list-style: disc;
+    list-style-type: disc;
     text-align: left;
     padding: 0;
 }
